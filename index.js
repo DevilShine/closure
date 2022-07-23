@@ -24,7 +24,7 @@ function arr() {
     if (!arr1.includes(num)) {
       arr1.push(num);
       a()
-    } else if (arr1[99] == true) {
+    } else if (arr1[99]) {
       console.log(arr1);
       return
     } else {
